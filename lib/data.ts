@@ -190,6 +190,19 @@ export const allProjects = [
       { value: "→ Pulse", label: "Productionised" },
     ],
   },
+  {
+    slug: "pipeline-intelligence",
+    title: "iOL X Pipeline Intelligence",
+    description:
+      "Monday.com's default board view can't answer: what did the funnel look like 3 months ago? Which deals moved this week? Which owners are driving progress backward? I built a fully embedded Board View app that answers all of it — real-time webhooks writing to PostgreSQL, point-in-time funnel reconstruction, and an owner movement scoring engine across 1,500+ deals.",
+    outcome: "Delivered end-to-end in 48 hours — React frontend on Vercel, Node.js/Express on Azure, PostgreSQL event log, real-time webhooks",
+    tags: ["Monday.com App", "Pipeline Analytics", "React", "Node.js", "PostgreSQL", "Azure"],
+    metrics: [
+      { value: "48 hrs", label: "Concept to Deploy" },
+      { value: "1,500+", label: "Deals Tracked" },
+      { value: "10-stage", label: "Funnel with History" },
+    ],
+  },
 ];
 
 export const skills = [
